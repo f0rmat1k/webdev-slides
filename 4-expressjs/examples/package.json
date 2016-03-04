@@ -1,8 +1,9 @@
 {
-  "name": "Awesome notes",
+  "name": "Awesome-notes",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
@@ -11,5 +12,10 @@
     "express": "^4.13.4",
     "hbs": "^4.0.0",
     "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.14",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0"
   }
 }
